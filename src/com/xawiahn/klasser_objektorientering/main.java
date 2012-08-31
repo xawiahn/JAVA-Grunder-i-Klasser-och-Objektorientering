@@ -1,10 +1,10 @@
 package com.xawiahn.klasser_objektorientering;
 import java.util.Scanner;
 
-public class main {
+//public class main {
 	
 	/* INTRO "UPPGIFTER"
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 		class Elev
 		{
@@ -58,4 +58,40 @@ public class main {
 			tal[2] = summa;
 		}
 	}*/
-}
+
+
+	/* ÖVNING 4-7
+	public class main
+	{
+		public static void main(String[] args){
+			
+			class Boll
+			{
+				int radie = 0;
+				String farg = " ";
+				void skrivutBollInfo()
+				{
+					System.out.println("Bollfärg: " + farg + " Radie = " + radie);
+				}
+				Boll(int r, String f)
+				{
+					radie = r;
+					farg = f;
+				}
+				Boll(int r)
+				{
+					radie = r;
+					farg = "Röd och Orange";
+				}
+			}
+			Boll minaBollar[] = new Boll[3];
+			minaBollar[0] = new Boll(5, "Grön");
+			minaBollar[1] = new Boll(9);
+			minaBollar[2] = new Boll(2, "Rosa");
+			for(int i = 0; i < 3; i++)
+			{
+				minaBollar[i].skrivutBollInfo();
+			}
+		}
+	}*/
+//}
